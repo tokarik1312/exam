@@ -8,7 +8,6 @@ nav ul li a img{
 .arrows  {
     opacity: 0;
   }
-
 #portfolio:hover .arrows {
     opacity: 1;
 }
@@ -50,7 +49,17 @@ nav ul li a img{
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
   } 
-
+footer img {
+   width: 100%;
+   height: 100%;
+}
+.icons {
+    width: 60px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 100%; 
+    padding: 10px;
+}
 
 
 @media (min-width: 993px) {
