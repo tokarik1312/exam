@@ -52,3 +52,38 @@ nav ul li a img{
 #one:hover {
     background-image: ;
 }
+
+
+@media (min-width: 993px) {
+    .features > div:nth-child(-n+3) {
+        border-bottom: 2px solid grey;
+    }
+    .features > div:nth-child(3n+2) {
+        border-left: 2px solid grey;
+        border-right: 2px solid grey;
+    }
+
+}
+
+
+@media (max-width: 992px) and (min-width: 576px) {
+.features > div:nth-child(odd){   
+    border-right: 2px solid grey;  
+
+}
+.features > div:nth-child(1), div:nth-child(3) {
+    border-bottom: 2px solid grey;
+}
+.features > div:nth-child(2), div:nth-child(4) {
+    border-bottom: 2px solid grey;
+}
+
+}
+
+@media (max-width: 576px) {
+    .features > div {
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 2px solid grey;
+    }
+}
