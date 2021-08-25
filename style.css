@@ -13,6 +13,7 @@ nav ul li a img{
 }
 .portfolio-box:hover img{
     filter: brightness(30%);
+    cursor: default;
 }
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
     max-width: 1920px;
@@ -48,6 +49,7 @@ nav ul li a img{
   }
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+    cursor: default;
   } 
 footer img {
    width: 100%;
