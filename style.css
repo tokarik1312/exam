@@ -8,6 +8,7 @@ nav ul li a img{
 .arrows  {
     opacity: 0;
   }
+
 #portfolio:hover .arrows {
     opacity: 1;
 }
@@ -49,9 +50,7 @@ nav ul li a img{
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
   } 
-#one:hover {
-    background-image: ;
-}
+
 
 
 @media (min-width: 993px) {
@@ -64,7 +63,6 @@ nav ul li a img{
     }
 
 }
-
 
 @media (max-width: 992px) and (min-width: 576px) {
 .features > div:nth-child(odd){   
