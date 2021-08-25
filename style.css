@@ -69,10 +69,10 @@ nav ul li a img{
     border-right: 2px solid grey;  
 
 }
-.features > div:nth-child(1), div:nth-child(3) {
+.features > div:nth-child(1), .features div:nth-child(3) {
     border-bottom: 2px solid grey;
 }
-.features > div:nth-child(2), div:nth-child(4) {
+.features > div:nth-child(2), .features div:nth-child(4) {
     border-bottom: 2px solid grey;
 }
 
